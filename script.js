@@ -8,11 +8,18 @@ setInterval(() => {
 function Result(x) {
     var celebration = "url('image.celebration.png')";
     var explosion = "url('image.explotion.png')";
+    // if(x == 1) {
+    //     alert("Correcto");
+    //     document.body.style.backgroundImage = celebration;
+    // } else {
+    //     alert("💥💥💥💥💥💥");
+    //     document.body.style.backgroundImage = explosion;
+    // }
     if(x == 1) {
-        alert("Correcto");
+        alert ("correct");
         document.body.style.backgroundImage = celebration;
     } else {
-        alert("💥💥💥💥💥💥");
-        document.body.style.backgroundImage = explosion;
+        alert ("boooom");
+        document.body, style.backgroundImage = explosion;
     }
 }
